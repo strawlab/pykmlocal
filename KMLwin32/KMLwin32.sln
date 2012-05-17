@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kmlsample", "kmlsample\kmlsample.vcproj", "{513A3FF7-BE48-479D-A7DA-AF64F743BD9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kmlminimal", "kmlminimal\kmlminimal.vcproj", "{866D6DB6-A003-437E-B33C-319BD522C484}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kmltest", "kmltest\kmltest.vcproj", "{32054555-6823-4788-96B6-A6FA19683DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{513A3FF7-BE48-479D-A7DA-AF64F743BD9E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{513A3FF7-BE48-479D-A7DA-AF64F743BD9E}.Debug|Win32.Build.0 = Debug|Win32
+		{513A3FF7-BE48-479D-A7DA-AF64F743BD9E}.Release|Win32.ActiveCfg = Release|Win32
+		{513A3FF7-BE48-479D-A7DA-AF64F743BD9E}.Release|Win32.Build.0 = Release|Win32
+		{866D6DB6-A003-437E-B33C-319BD522C484}.Debug|Win32.ActiveCfg = Debug|Win32
+		{866D6DB6-A003-437E-B33C-319BD522C484}.Debug|Win32.Build.0 = Debug|Win32
+		{866D6DB6-A003-437E-B33C-319BD522C484}.Release|Win32.ActiveCfg = Release|Win32
+		{866D6DB6-A003-437E-B33C-319BD522C484}.Release|Win32.Build.0 = Release|Win32
+		{32054555-6823-4788-96B6-A6FA19683DF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32054555-6823-4788-96B6-A6FA19683DF5}.Debug|Win32.Build.0 = Debug|Win32
+		{32054555-6823-4788-96B6-A6FA19683DF5}.Release|Win32.ActiveCfg = Release|Win32
+		{32054555-6823-4788-96B6-A6FA19683DF5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
