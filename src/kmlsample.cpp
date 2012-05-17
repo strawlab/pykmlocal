@@ -22,6 +22,7 @@
 #include <iostream>			// C++ I/O
 #include <string>			// C++ strings
 #include "KMlocal.h"			// k-means algorithms
+#include <string.h>
 
 using namespace std;			// make std:: available
 

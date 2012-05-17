@@ -29,6 +29,7 @@
 #include "KMfilterCenters.h"		// center point set (for filtering)
 #include "KMlocal.h"			// k-means algorithms
 #include "KMrand.h"			// random point generation
+#include <string.h>
 
 //----------------------------------------------------------------------
 // kmltest
