@@ -69,6 +69,12 @@ public:					// accessors
     const KMcenter& operator[](int i) const {
 	return ctrs[i];
     }
+    KMcenter& get(int i) {	// index centers
+	return ctrs[i];
+    }
+    const KMcenter& get(int i) const {
+	return ctrs[i];
+    }
     void resize(int k);			// resize array
 
     virtual void print(			// print centers

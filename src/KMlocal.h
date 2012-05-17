@@ -136,6 +136,11 @@ public:
 
     virtual ~KMlocal() { }			// virtual destructor
     virtual KMfilterCenters execute();		// execute the algorithm
+    KMfilterCenters* execute_to_new() {
+      KMfilterCenters *result;
+      result = new KMfilterCenters(execute());
+      return result;
+    }
 
     int getTotalStages() const {		// return total no. of stages
       return stageNo;

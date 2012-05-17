@@ -79,6 +79,12 @@ public:
     const KMdataPoint& operator[](int i) const {
 	return pts[i];
     }
+    KMdataPoint& get(int i) {	// index
+	return pts[i];
+    }
+    const KMdataPoint& get(int i) const {
+	return pts[i];
+    }
     void setNPts(int n) {		// set number of points
 	assert(n <= maxPts);		// can't be more than array size
 	nPts = n;
